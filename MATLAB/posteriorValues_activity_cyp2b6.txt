@@ -1,0 +1,2 @@
+parameter mean median 95CI lower 95CI upper
+k_{met,cyp2b6} 0.00008558 0.00008545 0.00006014 0.00011079

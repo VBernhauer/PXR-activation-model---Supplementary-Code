@@ -1,0 +1,12 @@
+MLvalue -81.19598932 
+k_{pxr} 0.14316201
+k_{res} 0.04932778
+k_{pxr,deg} 0.01062869
+k_{mRNA_{cyp3a4}^{fold}} 0.08273869
+k_{mRNA_{cyp3a4,deg}} 0.04433808
+k_{mRNA_{cyp2c9}^{fold}} 0.04010532
+k_{mRNA_{cyp2c9,deg}} 0.03567006
+k_{mRNA_{cyp2b6}^{fold}} 0.13927254
+k_{mRNA_{cyp2b6,deg}} 0.03407597
+k_{mRNA_{mdr1}^{fold}} 0.02633637
+k_{mRNA_{mdr1,deg}} 0.02308352
