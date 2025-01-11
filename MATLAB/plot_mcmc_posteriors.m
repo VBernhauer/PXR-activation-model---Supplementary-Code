@@ -145,8 +145,8 @@ function [] = plot_mcmc_posteriors()
     if ~exist('./figures', 'dir')
         mkdir('./figures')
     end
-    % savefig(strcat('figures/corner.fig'));
-    % exportgraphics(gcf,'figures/corner.png');
+    savefig(strcat('figures/corner.fig'));
+    exportgraphics(gcf,'figures/corner.png');
     % exportgraphics(gcf,'../../LaTeX/figures/corner.pdf','ContentType','vector');
 
 
