@@ -150,7 +150,7 @@ function [] = plot_data()
                         'Units','Normalized',...
                         'HorizontalAlignment','center',...
                         'FontSize',10,...
-                        'FontWeight','bold');                    
+                        'FontWeight','Normal');                    
             end
         end
     end
@@ -167,6 +167,6 @@ function [] = plot_data()
     end
     savefig(strcat('figures/data.fig'));
     exportgraphics(gcf,'figures/data.png');
-%     exportgraphics(gcf,'../LaTeX/figures/data.eps','ContentType','vector');
+    % exportgraphics(gcf,'../../LaTeX/figures/data.eps','ContentType','vector');
             
     end
