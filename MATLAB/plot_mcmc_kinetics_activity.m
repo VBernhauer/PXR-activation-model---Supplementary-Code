@@ -264,7 +264,7 @@ function [] = plot_mcmc_kinetics_activity(cyp)
     end
     savefig(strcat('figures/activity_cyp',label,'.fig'));
     exportgraphics(gcf,strcat('figures/activity_cyp',label,'.png'));
-    exportgraphics(gcf,strcat('../../LaTeX/figures/activity_cyp',label,'.eps'),'ContentType','vector');
+    % exportgraphics(gcf,strcat('../../LaTeX/figures/activity_cyp',label,'.eps'),'ContentType','vector');
 
     %%% output of the model %%%
     function [output] = model()         

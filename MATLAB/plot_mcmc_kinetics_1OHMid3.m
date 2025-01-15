@@ -244,7 +244,7 @@ function [] = plot_mcmc_kinetics_1OHMid3()
     end
     savefig(strcat('figures/1OHMid3.fig'));
     exportgraphics(gcf,'figures/1OHMid3.png');
-    exportgraphics(gcf,'../../LaTeX/figures/1OHMid3.eps','ContentType','vector');
+    % exportgraphics(gcf,'../../LaTeX/figures/1OHMid3.eps','ContentType','vector');
 
     %%% output of the model %%%
     function [output] = model()         
