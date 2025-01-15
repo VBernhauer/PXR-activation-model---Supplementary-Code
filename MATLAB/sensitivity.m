@@ -101,13 +101,13 @@ function [] = sensitivity()
                 plot(ax(mm),T,output{nn},'Color',colors(i,:),'LineWidth',1,'LineStyle','-')
                 hold on;
                 title(strcat('\rm',Text{mm},ylabels{mm}),'FontSize',ftsizesm);
-                text(0.9,0.9,figlabs{mm},...
-                    'Units','Normalized',...
-                    'HorizontalAlignment','center',...
-                    'FontSize',ftsizesm,...
-                    'FontWeight','Normal');    
-                hold on;
-            end   
+            end 
+            text(0.9,0.9,figlabs{mm},...
+            'Units','Normalized',...
+            'HorizontalAlignment','center',...
+            'FontSize',ftsizesm,...
+            'FontWeight','Normal');    
+            hold on;
         end
     end
 %     leg = legend(ax(5),Legend{:,:},'Position',[0.8 0.1 0.075 0.4],'FontSize',10,'Orientation','Vertical');
@@ -125,7 +125,7 @@ function [] = sensitivity()
         mkdir('./figures')
     end
     savefig(strcat('figures/sensitivity.fig'));
-    exportgraphics(gcf,'figures/sensitivity.png');
+    exportgraphics(gcf,'../../LaTeX/figures/sensitivity.png');
     % exportgraphics(gcf,'../../LaTeX/figures/sensitivity.eps','ContentType','vector');
              
 
