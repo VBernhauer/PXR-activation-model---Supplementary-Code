@@ -120,10 +120,10 @@ function [] = plot_data_fold_activity()
                     'Units','Normalized',...
                     'HorizontalAlignment','center',...
                     'FontSize',10,...
-                    'FontWeight','bold'); 
+                    'FontWeight','Normal'); 
         end
     end
-    
+
     leg = legend(ax(1),names_sin,'Location','NorthOutside','FontSize',10,'Orientation','Horizontal');
     leg.Layout.Tile = 'North';
     xlabel(tiledplot,'Time post rifampicin pre-treatment (hours)','FontSize',14);
