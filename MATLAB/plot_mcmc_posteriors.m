@@ -59,7 +59,7 @@ function [] = plot_mcmc_posteriors()
             a{11}};
 
 
-    %%% requires python module emcee (https://emcee.readthedocs.io/en/stable/) %%%
+    %%% requires matlab package gwmcmc (https://www.mathworks.com/matlabcentral/fileexchange/49820-ensemble-mcmc-sampler or https://github.com/grinsted/gwmcmc) %%%
     figure();
     ecornerplot(chains,'ks',true,'color',[.3 .3 .3],'names',labs)
         
