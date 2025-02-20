@@ -180,9 +180,9 @@ function [] = plot_mcmc_kinetics()
    
     
     %%% PLOT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
-    figlabs = {'','(a)','(b)','(c)','',...
-               '(d)','(e)','(f)','(g)','(h)',...
-               '(i)','(j)','(k)','(l)','(m)'};
+    figlabs = {'','(A)','(B)','(C)','',...
+               '(D)','(E)','(F)','(G)','(H)',...
+               '(I)','(J)','(K)','(L)','(M)'};
     tiledplot = tiledlayout(3,5,'TileSpacing','Compact');
     set(gcf, 'Position',  [300, 100, 1300, 600]);
     mm = 0;
@@ -269,7 +269,7 @@ function [] = plot_mcmc_kinetics()
     end
     savefig(strcat('figures/kinetics_no_resource_depletion.fig'));
     exportgraphics(gcf,'figures/kinetics_no_resource_depletion.png');
-    % exportgraphics(gcf,'../../LaTeX/figures/kinetics_no_resource_depletion.eps','ContentType','vector');
+    exportgraphics(gcf,'../../LaTeX/figures/kinetics_no_resource_depletion.eps','ContentType','vector');
              
 
     %%% helper functions %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
