@@ -57,7 +57,7 @@ function [] = plot_data_fold_activity()
     names_mix = {'Donor 1','Donor 3'};
     markers_mix = {'o','square'};
     
-    figlabs = {'(a)','','','(b)','(c)','(d)'};
+    figlabs = {'(A)','','','(B)','(C)','(D)'};
     markersize = 50;
     markerfa = {0.5,0.5,0.5};
     mcolors = [0 0 0];

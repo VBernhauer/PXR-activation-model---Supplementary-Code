@@ -43,7 +43,7 @@ function [] = plot_CYP3A4_validation()
     
     %%% PLOT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
     colors = [[0 1 1];[0 0 1];[1 0 0];[1 0 1]];
-    figlabs = {'(a)','(b)','(c)'};
+    figlabs = {'(A)','(B)','(C)'};
 
     for ii = 1:length(Dose)
         Legend{ii} = strcat(num2str(Dose(ii)),' \muM');

@@ -60,7 +60,6 @@ function [] = plot_mcmc_posteriors_activity()
     
     %%% Aggregated posterior plots %%%
     fcolor = {[0 0 0],[1 0 0],[0 0 1],[0 1 1],[1 0 1]};
-    figlabs = {'(a)','(b)'};
     xlims = {[-5.5 -2.0],[-0.6 1.2]};
     figure(2);
     tiledplot = tiledlayout(1,1,'TileSpacing','Compact');
