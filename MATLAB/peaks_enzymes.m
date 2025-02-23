@@ -70,7 +70,7 @@ function [] = peaks_enzymes()
     ftsize = 14;
     ftsizesm = 12;
     ftsizelt = 10;
-    figlabs = {'(a)','','(b)','(c)','(d)','(e)'};
+    figlabs = {'(A)','','(B)','(C)','(D)','(E)'};
     tiledplot = tiledlayout(3,2,'TileSpacing','Compact');
     set(gcf, 'Position',  [300, 100, 700, 800]);
     mm = 0;
@@ -132,7 +132,7 @@ function [] = peaks_enzymes()
     end
     savefig(strcat('figures/peaks_enzymes.fig'));
     exportgraphics(gcf,'figures/peaks_enzymes.png');
-    % exportgraphics(gcf,'../../LaTeX/figures/peaks_enzymes.eps','ContentType','vector');
+    exportgraphics(gcf,'../../LaTeX/figures/peaks_enzymes.eps','ContentType','vector');
 
 
     %%% helper functions %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
