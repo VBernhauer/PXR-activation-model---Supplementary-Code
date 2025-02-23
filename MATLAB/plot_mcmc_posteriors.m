@@ -166,7 +166,7 @@ function [] = plot_mcmc_posteriors()
     fcolor = {{[0 0 0],[1 1 0],[0 1 0]};...
               {[1 0 0],[0 0 1],[0 1 1],[1 0 1]};...
               {[1 0 0],[0 0 1],[0 1 1],[1 0 1]}};
-    figlabs = {'(a)','(b)','(c)'};
+    figlabs = {'(A)','(B)','(C)'};
     xlims = {[-3.0 -0.4],[-2.3 -0.5],[-2.1 -1.2]};
     figure(2);
     tiledplot = tiledlayout(1,3,'TileSpacing','Compact');
