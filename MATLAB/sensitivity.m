@@ -125,7 +125,7 @@ function [] = sensitivity()
         mkdir('./figures')
     end
     savefig(strcat('figures/sensitivity.fig'));
-    exportgraphics(gcf,'../../LaTeX/figures/sensitivity.png');
+    exportgraphics(gcf,'figures/sensitivity.png');
     % exportgraphics(gcf,'../../LaTeX/figures/sensitivity.eps','ContentType','vector');
              
 

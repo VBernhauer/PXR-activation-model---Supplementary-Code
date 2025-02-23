@@ -132,7 +132,7 @@ function [] = peaks_enzymes()
     end
     savefig(strcat('figures/peaks_enzymes.fig'));
     exportgraphics(gcf,'figures/peaks_enzymes.png');
-    exportgraphics(gcf,'../../LaTeX/figures/peaks_enzymes.eps','ContentType','vector');
+    % exportgraphics(gcf,'../../LaTeX/figures/peaks_enzymes.eps','ContentType','vector');
 
 
     %%% helper functions %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
