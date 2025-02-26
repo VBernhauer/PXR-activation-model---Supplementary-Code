@@ -53,10 +53,10 @@ function [] = plot_mcmc_posteriors_activity()
         end
     end
 
-    a{1} = '$k_{\mathrm{met}_\mathrm{cyp3a4,ss}}$';
-    a{2} = '$k_{\mathrm{met}_\mathrm{cyp3a4,sm}}$';
-    a{3} = '$k_{\mathrm{met}_\mathrm{cyp2c9,sm}}$';
-    a{4} = '$k_{\mathrm{met}_\mathrm{cyp2b6,sm}}$';
+    a{1} = '$k_{\mathrm{met}_\mathrm{cyp3a4,ss}}^\mathrm{fold}$';
+    a{2} = '$k_{\mathrm{met}_\mathrm{cyp3a4,sm}}^\mathrm{fold}$';
+    a{3} = '$k_{\mathrm{met}_\mathrm{cyp2c9,sm}}^\mathrm{fold}$';
+    a{4} = '$k_{\mathrm{met}_\mathrm{cyp2b6,sm}}^\mathrm{fold}$';
     
     %%% Aggregated posterior plots %%%
     fcolor = {[0 0 0],[1 0 0],[0 0 1],[0 1 1],[1 0 1]};
